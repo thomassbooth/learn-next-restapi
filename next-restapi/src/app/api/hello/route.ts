@@ -15,5 +15,6 @@ export async function GET(request: Request) {
       'Content-Type': 'text/plain'
     }
   })
+  console.log('hi')
   return new Response('Hello, Next.js!')
 }
